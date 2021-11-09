@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style="color :#5ECDAD !important">Fill out this form now!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="save_guide" id="save_guide">
+            <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Yes I am ready to publish today</option>
+                  <option>No I'm not</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="first_name" aria-describedby="first_name" placeholder="First Name" required/>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="second_name" aria-describedby="second_name" placeholder="Last Name" required/>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" aria-describedby="second_name" placeholder="E-mail" required/>
+            </div>
+            <div class="form-group">
+              <input id="phone" class="form-control w-100" type="number" id="phone" name="phone" required />
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary rounded-pill text-white font-weight-bold float-center" style="background-color: #FD9683 !important;border-color: #FD9683 !important;">CLAIM YOUR FREE GUIDE</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <cite title="Source Title">
+          By clicking "CLAIM YOUR FREE PUBLISHING GUIDE", you are providing your electronic signature voluntarily authorizing AuthorHouse and its affliates to contact you using a manual automated telephone dialing system and send you advertisement or telemarketing messages by email or text/SMS/MMS message to the address and phone number you have provided above. You are not required to agree to this in order to buy products or services from AuthorHouse. You certify that you are over the age of eighteen (18) You'll get up to ten (10) messages per month. Standard message and data rates may apply. Click here to view our privacy policy.
+        </cite>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand"><img src="AHLOGO.png" class="img-fluid" alt="..."></a>
+      <div class="navbar-text">
+        <p class="lead mt-3 d-inline text-right text-right">Get everything you need to publish your own book,starting with publishing guide</p> 
+        <button class="btn btn-primary rounded-pill text-white font-weight-bold" data-toggle="modal" data-target="#exampleModal" style="background-color: #FD9683 !important;border-color: #FD9683 !important;">Get the guide</button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mb-4" style="position: relative;text-align: center;">
+    <h1 class=" main-text w-75 highlight">The Difficult Things: <br> Writing About Pain, Grief, and Hardship</h1>
+    <img class="img-fluid" src="The Difficult Things_MainPage_hero.jpg" alt="Snow" style="background">
+    <!-- <div class="centered">Centered</div> -->
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <p class="lead">Life is full of difficult things. From a layoff to a car accident, from a chronic illness to an terminal diagnosis, anyone can be thrown off by any manner of pain, hardship, or grief at any time.</p>
+        <p class="lead">Harvard Health Publishing says that while it's not a panacea, the act of thinking about a stressful or traumatic life experimence can be become a coping mechanism when you try to fame the events in a story. Writing about your experience may help you organize your thoughts, give meaning to the experience, and break free of circular thinking that tends to drag you down.</p>
+        <p class="lead">Of course, the act of writing can be just as painful as going through your subject matter, so make sure you take certain steps as you find the words and try coming to terms with your experiences.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <img src="The Difficult Things_MainPage_image1.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <p><small class="display-4 highlight" style="font-size: 2.0rem !important;">Writing through pain and hardship</small></p>
+          <p class="lead">It's easy to say that you can think of how sharing your experiences will help others, as in the case of Tessa Miller, whose memoir about living with Crohn's disease gives valuable advice on communicating your needs, advocating for the best care, and adjusting to your identity as the sufferer of a chronic illness; or William Styron, whose memoir about recovering the crippling clinical depression was a pioneering work in mental illness literature and raise awareness for depression; or Paul Kalanithi, whose posthumously published memoir about his life and battle with stage 4 lung cancer became a worldwide bestseller and a Pulitzer Prize finalist-but your priority should always be your own journey</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="row">
+        <img src="The Difficult Things_MainPage_image2.jpg" class="image2 col img-fluid" alt="Responsive image">
+        <div class="col w-100">
+          <p class="lead">
+            <b class="highlight">Take All the time you need.</b><br>
+            You alone can determine when you're ready to write your story. When you do begin, don't feel pressured to start dedicating eight hours to writing. You can start with at least 10-15 minutes of free writing daily.
+          </p>
+          <p class="lead">
+            <b class="highlight">Write for yourself first before writing for others.</b><br>
+            You first draft doesn't have to be the one that others get to read. For now, write without worrying about an audience. Doing so may help you overcome your inhibitions and focus on the cathartic aspect of the activity 
+          </p>
+          <p class="lead">
+            <b class="highlight">Tap into your support network.</b><br>
+            You don't have to go through the process alone. Let your family and firneds know that you're embarking on a project so they can support you during particular rough chapters.
+          </p>
+          <p class="lead">
+            <b class="highlight">Don't hesitate to walk away if you need to.</b><br>
+            When reminiscene threatens to overwhelm you, go ahead and take a break for a few hours or even days. The important thing is that your writing helps you through your pain and doesn't aggravate it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <img src="The Difficult Things_MainPage_image3.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col-md-6">
+        <p><small class="display-4 highlight" style="font-size: 2.0rem !important;">Writing through grief</small></p>
+        <p class="lead">After the death of a loved one, writing might be the furthest things from your mind. But writing  can be an instrument of self-discovery and self-expression for you to explore unsaid things and unshared feelings.</p>
+        <p class="lead">Here are some prompts to help you sort through your thoughts and emotions about death, the departed, and yourself.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="row">
+        <img src="The Difficult Things_MainPage_image4.jpg" class="col img-fluid" alt="Responsive image">
+        <div class="col">
+          <ul>
+            <li><p class="lead">How did the departed influence your life?</p></li>
+            <li><p class="lead">What are the things about them that you miss?</p></li>
+            <li><p class="lead">What do you wish they would do, know, or say?</p></li>
+            <li><p class="lead">What are things that you wish you'd sad? How do you think that conversation would go?</p></li>
+            <li><p class="lead">What are things that you wish you'd done with them? What would a perfect day with them look like?</p></li>
+            <li><p class="lead">What are your best memories with them?</p></li>
+            <li><p class="lead">What will you remember them for?</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer style="background-color: #1C2238;">
+    <div class="container text-center pt-4 pb-4">
+      <p class="lead text-white w-100" style="font-size: 1.5rem !important;">Writing about pain, grief, and hardship can be very uncomfortable as you become open and vulnerable in ways that might affect not just you but also your family and friends. But your honesty will be rewarded with catharsis-for you and your readers. Take courage in the though of keeping your readers company long after even the memory of your pain has faded.</p>
+    </div>
+  </footer>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+ <script>
+  $( "#save_guide" ).submit(function( e ) {
+    e.preventDefault();
+    Swal.fire({
+      icon: 'success',
+      title: 'Your info has been submited',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  });
+   const phoneInputField = document.querySelector("#phone");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+
+ </script>
+
+</html>

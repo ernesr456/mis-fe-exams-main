@@ -1,0 +1,31 @@
+  @media only screen and (max-width: 974px) {
+    .main-text {
+      font-size: 1.5rem !important;
+    }
+  }
+  @media only screen and (max-width: 1316px) {
+    .main-text{
+      font-size: 2.0rem !important;
+    }
+  }
+  @media only screen and (max-width: 526px) {
+    .main-text {
+      font-size: 1.0rem !important;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .image2{
+      flex-basis: auto;
+    }
+  }
+  .highlight{
+    color:  #5b76db !important;
+  }
+  h1.main-text {
+    font-family: "Times New Roman";
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }

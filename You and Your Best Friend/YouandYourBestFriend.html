@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style="color :#5ECDAD !important">Fill out this form now!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="save_guide" id="save_guide">
+            <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Yes I am ready to publish today</option>
+                  <option>No I'm not</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="first_name" aria-describedby="first_name" placeholder="First Name" required/>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="second_name" aria-describedby="second_name" placeholder="Last Name" required/>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" aria-describedby="second_name" placeholder="E-mail" required/>
+            </div>
+            <div class="form-group">
+              <input id="phone" class="form-control w-100" type="number" id="phone" name="phone" required />
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary rounded-pill text-white font-weight-bold float-center" style="background-color: #FD9683 !important;border-color: #FD9683 !important;">CLAIM YOUR FREE GUIDE</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <cite title="Source Title">
+          By clicking "CLAIM YOUR FREE PUBLISHING GUIDE", you are providing your electronic signature voluntarily authorizing AuthorHouse and its affliates to contact you using a manual automated telephone dialing system and send you advertisement or telemarketing messages by email or text/SMS/MMS message to the address and phone number you have provided above. You are not required to agree to this in order to buy products or services from AuthorHouse. You certify that you are over the age of eighteen (18) You'll get up to ten (10) messages per month. Standard message and data rates may apply. Click here to view our privacy policy.
+        </cite>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand"><img src="AHLOGO.png" class="img-fluid" alt="..."></a>
+      <div class="navbar-text">
+        <p class="lead mt-3 d-inline text-right text-right">Get everything you need to publish your own book,starting with publishing guide</p> 
+        <button class="btn btn-primary rounded-pill text-white font-weight-bold" data-toggle="modal" data-target="#exampleModal" style="background-color: #FD9683 !important;border-color: #FD9683 !important;">Get the guide</button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mb-4" style="position: relative;text-align: center;">
+    <h1 class=" main-text w-25 highlight">You and Your Best Friend: Writing a Book About Your Pet</h1>
+    <img class="img-fluid" src="You and Your Best Friend_hero2.jpg" alt="Snow" style="background">
+    <!-- <div class="centered">Centered</div> -->
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <p class="lead">Something about your pet just captures your imagination, whether they make you laugh or tug at your hearstrings. But writing a book about them takes more than sharing anecdotes.</p>
+        <p class="lead">To tell a story about your furry, feathered, wiggly, scaly, winged, or hooved best friend, you need to treat it like you would any other kind of story. Take a few pre-writing steps before jumping into the meat of the story, and build up the character of your pet to the best of your ability. Be ready to put in the work of making the reader care about your pet as much as you do, and you're off to a good start.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="row">
+        <img src="You and Your Best Friend_image1.jpg" class="image2 col img-fluid" alt="Responsive image">
+        <div class="col w-100">
+          <p><small class="display-4 highlight" style="font-size: 2.0rem !important;">Prepare to write your book</small></p>
+          <p class="lead">A great pre-writing step you could take is to get acquinted with animal stories. Consume books and movies that involve animals. Pay attention to how the theme unfolds, how the story of the animal. What do you like about the story? What do you think could you have done better? Which parts would have required research?</p>
+          <p class="lead">Make sure to do your own research as well. What's the background of your pet's species and bread? What are the sounds they make? What's their body language? What are their behaviors that are common to or different from those of their kind? What's the best way to care for them? You might have to join a community of pet owners to have these questions answered and gain insight into your pet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <p class="lead">Expand your resaerch outside the home too. If you adopted your pet, research the history and operations of the shelter they came from. What are the challenges that they face and the issue that need the cooperation of the community? What are their success stories? It's good to situate your pet in the big picture so that the reader can be made aware of the joys and pitfalls of pet ownership. If your pet used to be a service animal, you can also include information about the work they used to do and the organization that used to employ them.</p>
+        <p class="lead">You should also pick photos and videos that exhibit your pet's personality, from the time they were little until their later years.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="row">
+        <img src="You and Your Best Friend_image2.jpg" class="image2 col img-fluid" alt="Responsive image">
+        <div class="col w-100">
+          <p><small class="display-4 highlight" style="font-size: 2.0rem !important;">Humanize your pet</small></p>
+          <p class="lead">Even if you're writing about a Mexican red-knee tarantula or a sulphur-crested cockatoo, It's the human element of your story that will resonate with the reader. To help your book connect with your audience, you need to pay close attention to character development-both your and your pet's.</p>
+          <p class="lead">First, establish your pet's character by observing them and nothing their habits, interactions with other people and animals, and quirks that they show. Try to catch their characteristics mannerism, whether they're at play or at rest in their favorite spot. If your pet isn't with you anymore, try to free-write your best and worst memories. You can do also augment them with tales from family members.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col">
+        <p class="lead">Then, reflect on your own journey. What adventures have you had? What trials have you overcome? Sketch your character arc, complete with internal and external conflicts. Afterwards, review the material you've gathered on your pet and try to look for possible stories that mirror your own. Pinpoint opportunities for drama by observing how you and your pet change throughout the story. Make sure both of you have clear goals, as well as strengths to muster and flaws that threaten to undermine you. This is a free-writing exercise for now-nothing is set in stone yet, so don't be afraid to explore all possible directions.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-4">
+    <div class="row">
+      <div class="row">
+        <img src="You and Your Best Friend_image3.jpg" class="image2 col img-fluid" alt="Responsive image">
+        <div class="col w-100">
+          <p><small class="display-4 highlight" style="font-size: 2.0rem !important;">Find your theme</small></p>
+          <p class="lead">Now that you know how your pet's presence has influenced your life, you can figure out what the theme of your book will be. common themes for books about pets include family, identity, loneliness, friendship, childhood, coming of age, love and hope. Your theme will serve as a guide for what's important in your book, a compass pointing toward the moments that will engage the reader and deepen the significance of your story.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+ <script>
+  $( "#save_guide" ).submit(function( e ) {
+    e.preventDefault();
+    Swal.fire({
+      icon: 'success',
+      title: 'Your info has been submited',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  });
+   const phoneInputField = document.querySelector("#phone");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+
+ </script>
+
+</html>
